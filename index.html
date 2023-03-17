@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
     <lang="en">
     <link rel="stylesheet" href="style.css">
@@ -10,7 +10,8 @@
 </head>
 <body>
     <header>
-        Odin's Library
+        <button><img src="svgs/plus.svg" height="18px" width="18px" alt="addition symbol">New Book</button>
+        <p class="head-text">Odin's Library</p> 
     </header>
     <div id="card-wrapper">
         <div id="card">
@@ -18,8 +19,9 @@
             <p>J.R.R. Tolkien</p>
             <p>295 pages</p>
             <button>Not Read</button>
-            <button><img src="svgs/delete.svg" height="18px" width="18px" alt="delete icon"></button>
+            <button>Remove</button>
         </div>
     </div>
+    <form id="form-con" action="/script.js"></form>
 </body>
 </html>
