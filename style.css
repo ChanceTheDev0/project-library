@@ -6,10 +6,16 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 32px;
-    font-weight: 200;
     padding: 8px;
     margin: 0px;
+}
+
+.head-text {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+    font-size: 32px;
+    font-weight: 200;
 }
 
 #card-wrapper {
@@ -22,24 +28,35 @@ header {
 #card {
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     justify-content: center;
     background-color: white;
     height: 30%;
     width: 30%;
     margin: 5px;
     padding-left: 25px;
+    padding-right: 25px;
     border: #e2e8f0 solid 1px;
     border-radius: 10px;
     box-shadow: 0.2em 0.2em 0.2em rgba(0,0,0,0.3);
 }
 
 button {
+    display: flex;
+    justify-content: center;
     margin: 5px;
-    width: 25%;
     height: 10%;
-    font-size: 16px;
+    font-size: 18px;
     color: white;
     background-color: #94a3b8;
-    border: 1px solid #94a3b8;
+    border: 1px solid #334155;
     border-radius: 6px;
+    box-shadow: 0.2em 0.2em 0.2em rgba(0,0,0,0.3);
 }
+
+button:hover {
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
